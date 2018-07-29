@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import OnBoarding from './pages/onboarding';
+import NoMatch from "./pages/nomatch";
+import theme from 'primereact/resources/themes/darkness/theme.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={OnBoarding} />
+            <Route component={NoMatch} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
