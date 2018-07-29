@@ -14,8 +14,11 @@
   color: white;
 }
 
+.App-title {
+  font-size: 1.5em;
+}
+
 .App-intro {
-    padding: 2em;
   font-size: large;
 }
 
