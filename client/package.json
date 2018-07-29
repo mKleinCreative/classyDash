@@ -1,15 +1,16 @@
 {
-  "name": "classydash-client",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "classnames": "^2.2.5",
-    "font-awesome": "^4.7.0",
-    "primereact": "2.0.0-beta.1",
+    "primereact": "^2.0.0-beta.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-router-dom": "4.3.1",
-    "react-transition-group": "^2.2.1"
+    "react-transition-group": "^2.2.1",
+    "font-awesome": "^4.7.0",
+    "classnames": "^2.2.5"
   },
   "scripts": {
     "start": "react-scripts start",
