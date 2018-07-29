@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ably": "1.0.16"
+    "ably": "1.0.16",
+    "dotenv": "6.0.0"
   }
 }
